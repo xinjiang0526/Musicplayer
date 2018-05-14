@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="100dp"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+>
+
+    <LinearLayout
+        android:layout_marginLeft="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="40dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:text="①        风中之烛"
+            android:textSize="18sp"/>
+
+        <Button
+            android:id="@+id/start_download1"
+            android:text="下载"
+            android:layout_marginLeft="50dp"
+            android:textSize="18sp"
+            android:textColor="#fff"
+            android:background="@drawable/bt_shape"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginLeft="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:text="②         风之彩"
+            android:textSize="18sp"/>
+
+        <Button
+            android:id="@+id/start_download2"
+            android:text="下载"
+            android:layout_marginLeft="63dp"
+            android:textSize="18sp"
+            android:textColor="#fff"
+            android:background="@drawable/bt_shape"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="③         航行"
+            android:textColor="#fff"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/start_download3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="82dp"
+            android:background="@drawable/bt_shape"
+            android:text="下载"
+            android:textColor="#fff"
+            android:textSize="18sp" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginLeft="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:text="④         爱你在心口难开"
+            android:textSize="18sp"/>
+
+        <Button
+            android:id="@+id/start_download4"
+            android:text="下载"
+            android:layout_marginLeft="0dp"
+            android:textSize="18sp"
+            android:textColor="#fff"
+            android:background="@drawable/bt_shape"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="40dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:text="⑤        爱的力量"
+            android:textSize="18sp"/>
+
+        <Button
+            android:id="@+id/start_download5"
+            android:text="下载"
+            android:layout_marginLeft="50dp"
+            android:textSize="18sp"
+            android:textColor="#fff"
+            android:background="@drawable/bt_shape"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_marginLeft="80dp"
+            android:id="@+id/pause_download"
+            android:text="暂停下载"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:background="@drawable/bt_shape"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_marginLeft="40dp"
+            android:id="@+id/cancel_download"
+            android:text="取消下载"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:background="@drawable/bt_shape"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
